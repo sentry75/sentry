@@ -25,11 +25,11 @@ export const gridItems = [
   {
     id: 1,
     title: "We prioritize performance optimization to ensure improved user experience ",
-    description: "Our AIM:",
+    description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/bg.png",
+    img: "/b4.webp",
     spareImg: "",
   },
   {
