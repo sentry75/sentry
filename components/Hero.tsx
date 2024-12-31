@@ -20,7 +20,9 @@ const Hero = () => {
           className="h-[80vh] w-[50vw] top-10 left-full"
           fill="purple"
         />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
+        <Spotlight 
+          className="left-80 top-28 h-[80vh] w-[50vw]" 
+          fill="blue" />
       </div>
 
       {/**
@@ -52,7 +54,7 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words= "Welcome To SENTRY"
+            words= "Welcome To sentry"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
