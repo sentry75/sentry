@@ -29,7 +29,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b4.webp",
+    img: "/pagespeed.png",
     spareImg: "",
   },
   {
@@ -39,7 +39,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "",
+    img: "/wave.gif",
     spareImg: "",
   },
   {

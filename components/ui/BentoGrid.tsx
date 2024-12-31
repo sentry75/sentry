@@ -136,7 +136,17 @@ export const BentoGridItem = ({
           </div>
 
           {/* for the github 3d globe */}
-          {id === 2 }
+          {id === 2 && (
+            <div className="w-full h-full absolute">
+          {img && (
+            <Image
+              src={img}
+              alt={img}
+              unoptimized
+              className={cn(imgClassName, "object-cover object-center ")}
+            />)}
+            </div>
+          )}
 
           {/* Tech stack list div */}
           {id === 3 && (
