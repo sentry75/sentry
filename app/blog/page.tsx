@@ -1,8 +1,9 @@
 import { navItems } from "@/data";
 
-import  Waitlist  from "@/components/Waitlist";
+import Waitlist from "@/components/Waitlist";
 import Footer from "@/components/Footer";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import { FeaturesSection } from "@/components/ui/Features";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -15,6 +16,7 @@ const blog = () => {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Waitlist />
+        <FeaturesSection />
         <Footer />
       </div>
     </main>
