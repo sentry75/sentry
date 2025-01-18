@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "Home", link: "/" },
   { name: "About", link: "#about" },
-  { name: "Blog", link: "/blog"},
+  { name: "Blog", link: "https://sentry-blog.netlify.app/"},
   { name: "Contact", link: "#contact" },
 ];
 
