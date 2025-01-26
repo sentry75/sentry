@@ -40,7 +40,7 @@ export const gridItems = [
     imgClassName: "justify-right",
     titleClassName: "justify-start",
     img: "/earth.gif",
-    spareImg: "",
+    spareImg: "/",
   },
   {
     id: 3,
