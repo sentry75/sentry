@@ -107,7 +107,7 @@ export const BentoGridItem = ({
               src={spareImg}
               alt={spareImg}
               priority={true}
-              //   width={220}
+              width={220}
               className="object-cover object-center w-full h-full"
             />
           )}
@@ -137,7 +137,7 @@ export const BentoGridItem = ({
             {title}
           </div>
 
-          {/* for the github 3d globe */}
+          {/* for the 2d globe */}
           {id === 2 }
 
           {/* Tech stack list div */}
